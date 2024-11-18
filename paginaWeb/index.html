@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Profesional</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+
+
+        <div class="contenido-header">
+            <div class="nombre-logo">
+                <h1>LZR BARBERSHOP</h1>
+                <div class="Logo">
+                    <img src="/010-Proyecto-pagina-web-bueno/img/image-removebg-preview.png" alt="LOGO">
+                </div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#about">Sobre el Barbero</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Sobre el Barbero -->
+    <section id="about">
+        <h2>Sobre el Barbero Jefe</h2>
+        <p>Aquí puedes escribir una descripción sobre ti, tus años de experiencia y estilo.</p>
+        <img src="ruta/a/tu/foto.jpg" alt="Foto del Barbero Jefe">
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="service">
+            <h3>Corte de Cabello</h3>
+            <p>Descripción breve del servicio de corte de cabello.</p>
+        </div>
+        <div class="service">
+            <h3>Afeitado Clásico</h3>
+            <p>Descripción breve del servicio de afeitado.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-grid">
+            <img src="ruta/a/imagen1.jpg" alt="Imagen 1">
+            <img src="ruta/a/imagen2.jpg" alt="Imagen 2">
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonials">
+        <h2>Testimonios</h2>
+        <blockquote>
+            <p>"Excelente servicio y profesionalismo."</p>
+            <cite>- Cliente Satisfecho</cite>
+        </blockquote>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="procesar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Nombre de la Barbería - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
